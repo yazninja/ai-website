@@ -17,7 +17,7 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/fonts',
     '@nuxt/image',
-    '@nuxt/content',
+    // '@nuxt/content', - for now remove till blog is added
     '@nuxt/ui',
   ],
   css: ['~/assets/css/main.css']
