@@ -14,9 +14,19 @@
     "@nuxt/fonts": "0.11.4",
     "@nuxt/icon": "1.15.0",
     "@nuxt/image": "1.10.0",
+    "@nuxt/ui": "^4.0.1",
     "better-sqlite3": "^12.2.0",
-    "nuxt": "^4.0.1",
+    "clsx": "^2.1.1",
+    "nuxt": "^4.1.2",
     "vue": "^3.5.17",
     "vue-router": "^4.5.1"
+  },
+  "trustedDependencies": [
+    "@parcel/watcher",
+    "@tailwindcss/oxide"
+  ],
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.68",
+    "@iconify-json/simple-icons": "^1.2.53"
   }
 }

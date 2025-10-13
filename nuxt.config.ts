@@ -7,10 +7,18 @@ export default defineNuxtConfig({
       autoSubfolderIndex: false
     }
   },
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false,
+    },
+  ],
   modules: [
     '@nuxt/icon',
     '@nuxt/fonts',
     '@nuxt/image',
-    '@nuxt/content'
-  ]
+    '@nuxt/content',
+    '@nuxt/ui',
+  ],
+  css: ['~/assets/css/main.css']
 })
