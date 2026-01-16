@@ -68,7 +68,8 @@ useSeoMeta({
 	ogSiteName: 'uchuujinai.com',
 	ogLocale: "en_US",
 	ogImageAlt: 'Uchuujin AI Logo',
-	twitterCard: 'summary_large_image'
+	twitterCard: 'summary_large_image',
+	themeColor: "#86d408"
 })
 
 </script>
