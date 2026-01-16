@@ -20,7 +20,7 @@
 </template>
 
 <script setup lang="ts">
-
+const toast = useToast();
 const file = ref<File | null>(null);
 const error = ref<string | null>(null);
 const uploadKey = ref<string | null>(null);
@@ -36,20 +36,19 @@ async function uploadFile() {
 		// Implement your upload logic here
 
 		let res = await $fetch('https://r2.uchuujinai.com/images/uchuuthon.png', {
+			method: 'PUT',
+			body: await file.value.arrayBuffer(),
 			headers: {
-				Accept: 'text/plain',
 				'Content-Type': 'image/png',
 				'X-Custom-Auth-Key': uploadKey.value || ''
-			},
-			method: 'POST',
-			mode: 'cors',
-
-			body: await file.value.arrayBuffer()
-		})
+			}
+		});
 		console.log(res);
-
-
-		console.log("Uploading file:", file.value.name);
+		toast.add({
+			title: 'Upload Successful',
+			description: (res as string),
+			color: 'success',
+		})
 	} else {
 		console.log("No file selected.");
 		error.value = "Please select a file to upload.";
