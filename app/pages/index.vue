@@ -1,11 +1,12 @@
 <template>
 	<UPage>
 		<NuxtImg preload src="https://media.uchuujinai.com/site-assets/home-bg.png" alt="Uchuujin AI"
-			class="absolute top-0 left-0 w-full h-full object-cover -z-10 opacity-30 dark:opacity-20" />
+			class="fixed top-0 left-0 w-full h-full object-cover -z-10 opacity-30 dark:opacity-20" />
 		<ClientOnly>
+			<TwichEmbed />
 			<CardContainer>
 				<CardBody
-					class="group/card relative size-auto rounded-xl border border-black/[0.1] bg-gray-50/60 p-6 sm:w-[30rem] dark:border-white/[0.2] dark:bg-transparent dark:backdrop-blur-md dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] gap-2 flex flex-col">
+					class="mt-5 group/card relative size-auto rounded-xl border border-black/[0.1] bg-gray-50/60 p-6 sm:w-[30rem] dark:border-white/[0.2] dark:bg-transparent dark:backdrop-blur-md dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] gap-2 flex flex-col">
 					<CardItem :translate-z="50" class="text-3xl font-bold text-center">
 						Uchuujin_Ai
 					</CardItem>
