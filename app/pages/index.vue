@@ -26,7 +26,7 @@
 					</CardItem>
 					<CardItem :translate-z="100" :rotate-z="-1">
 						<FancyLinkButton gradient-color="#ee0f0f" left-icon="i-logos-youtube-icon" description="YouTube"
-							to="https://www.youtube.com/@uchuujin_aiii" />
+							to="https://www.youtube.com/@uchuujin_ai" />
 					</CardItem>
 					<CardItem :translate-z="100" :rotate-z="1">
 						<FancyLinkButton gradient-color="#ee0f0f" left-icon="i-logos-youtube-icon"
@@ -42,7 +42,7 @@
 					</CardItem>
 					<CardItem :translate-z="100" :rotate-z="-1">
 						<FancyLinkButton gradient-color="#000000" left-icon="i-logos-tiktok-icon"
-							description="⚫ TikTok ⚫" to="https://www.tiktok.com/@uchuujin.ai" />
+							description="⚫ TikTok ⚫" to="https://www.tiktok.com/@uchuujin_ai" />
 					</CardItem>
 					<CardItem :translate-z="100" :rotate-z="1">
 						<FancyLinkButton gradient-color="#e1306c" left-icon="i-logos-instagram-icon"
