@@ -1,6 +1,6 @@
 <template>
 	<div class="flex w-full justify-center items-center">
-		<div class="columns-2 md:columns-3 lg:columns-4 xl:columns-5 gap-6 p-4">
+		<div class="columns-2 md:columns-3 lg:columns-4 xl:columns-5 gap-1 md:gap-3 lg:gap-4 xl:gap-6 p-4">
 			<div v-for="(image, index) in images" :key="index" class="p-2 isolate relative group">
 				<video v-if="image.url.endsWith('.mp4')" autoplay muted loop
 					class="rounded-lg shadow-lg group-hover:scale-105 transition-transform duration-300 group-hover:brightness-50">
