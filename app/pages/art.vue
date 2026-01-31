@@ -63,10 +63,15 @@ const credits = [
 	{ key: 'sweetpotechi103.png', name: 'sweetpotechi103', link: 'https://skeb.jp/@sweetpotechi103', title: 'Version 0 Commission' },
 	{ key: 'lyriziak.png', name: 'lyriziak', link: 'https://lyriziak.carrd.co/', title: 'Version 0 Commission' },
 	{ key: '00chyaa.gif', name: '00chyaa', link: 'https://vgen.co/00chyaa', title: 'Version 0 Commission' },
-
+	{ key: '2237_84.png', name: '2237_84', link: 'https://skeb.jp/@2237_84', title: 'Version 0 Commission' },
+	{ key: 'N__nagi3.png', name: 'N__nagi3', link: 'https://skeb.jp/@N__nagi3', title: 'Version 0 Commission' },
+	{ key: 'isana615.png', name: 'isana615', link: 'https://skeb.jp/@isana615', title: 'Version 0 Commission' },
+	{ key: 'momohana_3939.png', name: 'momohana_3939', link: 'https://skeb.jp/@momohana_3939', title: 'Version 0 Commission' },
+	{ key: 'tiramizawa (2).png', name: 'tiramizawa', link: 'https://skeb.jp/@tiramizawa', title: 'Version 0 Commission' },
+	{ key: 'tiramizawa (3).png', name: 'tiramizawa', link: 'https://skeb.jp/@tiramizawa', title: 'Version 0 Commission' },
+	{ key: 'tiramizawa (4).png', name: 'tiramizawa', link: 'https://skeb.jp/@tiramizawa', title: 'Version 0 Commission' },
+	{ key: 'tiramizawa.png', name: 'tiramizawa', link: 'https://skeb.jp/@tiramizawa', title: 'Version 0 Commission' },
 ];
-
-
 
 for (const key of imageKeys.objects) {
 	const credit = credits.find(credit => credit.key === key.split('/').pop());
@@ -76,69 +81,4 @@ for (const key of imageKeys.objects) {
 		credit: credit ? credit : null
 	});
 }
-
-/*
-ASUKA2k
-https://skeb.jp/@ASUKA2k
-
-babu2
-https://skeb.jp/@babu_2_
-
-akafuji
-https://skeb.jp/@aka_fuji_
-
-rizame120
-https://skeb.jp/@rizame120
-
-nasukeke_l_nuwa
-https://skeb.jp/@nasukeke_l_nuwa
-
-Roushi_772
-https://skeb.jp/@Roushi_772
-
-500_500px
-https://skeb.jp/@500_500px
-
-shimazu_akadu
-https://skeb.jp/@shimazu_akadu
-
-YzgHbpMVbQmjzfh
-https://skeb.jp/@YzgHbpMVbQmjzfh
-
-shir0_zzZ
-https://skeb.jp/@shir0_zzZ
-
-wabu_mement
-https://skeb.jp/@wabu_mement
-
-poroporosiisan
-https://skeb.jp/@poroporosiisan
-
-inoue
-https://skeb.jp/@inoue
-
-anone2259
-https://skeb.jp/@anone2259
-
-tanishi_0
-https://skeb.jp/@tanishi_0
-
-Katutika_yuzuki
-https://skeb.jp/@Katutika_yuzuki
-
-86773
-https://skeb.jp/@86773
-
-sweetpotechi103
-https://skeb.jp/@sweetpotechi103
-
-lyriziak
-https://lyriziak.carrd.co/
-
-00chyaa
-https://vgen.co/00chyaa 
-*/
-
-
-
 </script>
