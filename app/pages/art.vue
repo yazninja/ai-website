@@ -83,7 +83,7 @@ const credits = [
 
 for (const key of imageKeys.objects) {
 	let credit = null;
-	if (key.startsWith('art/fanart/') || key.startsWith('art/daya/')) credit = { name: key.replace('art/fanart/', '').split(' ')[0], title: 'Fan Art' };
+	if (key.startsWith('art/fanart/') || key.startsWith('art/daya/')) credit = { name: key.replace('art/fanart/', '').split(' ')[0], title: 'Fan Art', link: '', key: key };
 	else credit = credits.find(credit => credit.key === key.replace('art/', ''));
 	console.log('Credit:', key, credit);
 	images.push({
