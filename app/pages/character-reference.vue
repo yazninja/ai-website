@@ -1,13 +1,8 @@
 <script setup lang="ts">
-// const items = [
-// 	'https://media.uchuujinai.com/model-reference/1%20_%20Full%20Character%20Sheet.png',
-// 	'https://media.uchuujinai.com/model-reference/Back%20No%20Hair.png',
-// 	'https://media.uchuujinai.com/model-reference/Back.png',
-// 	'https://media.uchuujinai.com/model-reference/Front%20Glow.png',
-// 	'https://media.uchuujinai.com/model-reference/Front.png',
-// 	'https://media.uchuujinai.com/model-reference/Side.png',
-// 	'https://media.uchuujinai.com/model-reference/Side%20with%20Jacket.png',
-// ]
+useSeoMeta({
+	title: 'Character Reference | Uchuujin AI - VTuber',
+	description: "Wanna draw me? Here's my official character reference sheet for Uchuujin Ai (Eye). Feel free to use it for fan art and creative projects! ψ(｀∇´)ψ",
+})
 
 const items = [
 	{ title: 'Full Character Sheet', url: 'https://media.uchuujinai.com/model-reference/1%20_%20Full%20Character%20Sheet.png' },

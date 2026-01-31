@@ -30,6 +30,12 @@
 	</div>
 </template>
 <script setup lang="ts">
+useSeoMeta({
+	title: 'Art Gallery | Uchuujin AI - VTuber',
+	description: "Explore the art gallery of Uchuujin Ai (Eye), featuring fan art and commissioned works from talented artists. ψ(｀∇´)ψ",
+})
+
+
 const images = [];
 const URL_PREFIX = 'https://media.uchuujinai.com/'
 const res = await $fetch('https://r2.uchuujinai.com/getAllImages');
