@@ -71,6 +71,13 @@ const credits = [
 	{ key: 'tiramizawa (3).png', name: 'tiramizawa', link: 'https://skeb.jp/@tiramizawa', title: 'Version 0 Commission' },
 	{ key: 'tiramizawa (4).png', name: 'tiramizawa', link: 'https://skeb.jp/@tiramizawa', title: 'Version 0 Commission' },
 	{ key: 'tiramizawa.png', name: 'tiramizawa', link: 'https://skeb.jp/@tiramizawa', title: 'Version 0 Commission' },
+
+	{ key: 'CheeseArtStudio.jpeg', name: 'CheeseArtStudio', link: 'https://vgen.co/CheeseArtStudio', title: 'Version 1 Commission' },
+	{ key: 'Ralire.jpg', name: 'Ralire', link: 'https://vgen.co/Ralire', title: 'Version 1 Commission' },
+	{ key: 'aka_fuji_.png', name: 'aka_fuji', link: 'https://skeb.jp/@aka_fuji_', title: 'Version 1 Commission' },
+	{ key: 'cheu.gif', name: 'cheu', link: 'https://vgen.co/cheu', title: 'Version 1 Commission' },
+	{ key: 'momohana_3939.png', name: 'momohana_3939', link: 'https://skeb.jp/@momohana_3939', title: 'Version 1 Commission' },
+
 ];
 
 for (const key of imageKeys.objects) {
