@@ -1,5 +1,5 @@
 <template>
-	<div class="flex w-full justify-center items-center">
+	<div class="flex flex-col w-full justify-center items-center">
 		<div class="columns-2 md:columns-3 lg:columns-4 xl:columns-5 gap-1 md:gap-3 lg:gap-4 xl:gap-6 p-4">
 			<div v-for="(image, index) in images" :key="index" class="p-2 isolate relative group">
 				<video v-if="image.url.endsWith('.mp4')" autoplay muted loop
@@ -27,6 +27,8 @@
 				</div>
 			</div>
 		</div>
+		<div class="text-center text-4xl font-black mb-12">More art coming soon...</div>
+
 	</div>
 </template>
 <script setup lang="ts">
@@ -38,8 +40,8 @@ useSeoMeta({
 
 const images = [];
 const URL_PREFIX = 'https://media.uchuujinai.com/'
-const res = await $fetch('https://r2.uchuujinai.com/getAllImages');
-const imageKeys = JSON.parse(res);
+const { data: res } = await useFetch<string>('https://r2.uchuujinai.com/getAllImages');
+const imageKeys = JSON.parse(res.value!);
 console.log(imageKeys, typeof imageKeys);
 
 const credits = [
