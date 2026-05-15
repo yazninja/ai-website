@@ -50,7 +50,7 @@
 					</CardItem>
 					<CardItem :translate-z="100" :rotate-z="-1">
 						<FancyLinkButton gradient-color="#1877f2" left-icon="i-logos-facebook"
-							description="🔵 Facebook 🔵" to="https://www.facebook.com/uchuujin.aiii/" />
+							description="🔵 Facebook 🔵" to="https://www.facebook.com/uchuujinai/" />
 					</CardItem>
 				</CardBody>
 			</CardContainer>
